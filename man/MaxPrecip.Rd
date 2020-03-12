@@ -13,6 +13,10 @@ MaxPrecip(precip, station = "Cachuma")
 }
 \value{
 the greatest recorded rainfall value
+
+the data of the greatest recorded rainfall value
+
+the selected rainfall station
 }
 \description{
 Function to find the greatest recorded precipitation values in a daily rainfall dataset for a particular location during the given period
