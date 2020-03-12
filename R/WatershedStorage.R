@@ -1,11 +1,11 @@
 #' Function describing water stored in a watershed/year using simplified inflow/outflow processes
 #'
 #'
-#' @param precip precipitation in inches/year
-#' @param evap evaporation in inches/year
-#' @param runoff runoff in inches/year
+#' @param precip volume of precipitation in inches/year
+#' @param evap volume of water evaporated in inches/year
+#' @param runoff volume of runoff in inches/year
 #' @param watershed_size total area of watershed in sq miles
-#' @return storage the amount of water stored in the watershed in cubic ft/year
+#' @return storage the volume of water stored in the watershed in cubic ft/year
 
 
 WatershedStorage = function(precip, evap, runoff, watershed_size) {
