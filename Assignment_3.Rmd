@@ -35,9 +35,6 @@ days = 365
 
 climate = data.frame(precip = rnorm(mean = 0.1, sd = 0.08, n = days), temp = rnorm(mean = 50, sd = 25, n = days))
 
-snow_v_rain(climate)
-
-
 ```
 
 ```{r}

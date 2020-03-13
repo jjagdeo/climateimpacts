@@ -2,7 +2,7 @@
 #'
 #'Takes precipitation (inches) and corresponding temperature (F) data and calculates the volume of precipitation that fell as rain vs snow
 #'
-#'@param climate data frame including precipitation (inches) and temperature (F) observations
+#'@param climate data frame including columns for precipitation (inches) and temperature (F) observations
 #'@return precip_summary a table with volume of precipitation that fell as rain vs snow and average temperature when precipitation fell as rain vs snow.
 
 
