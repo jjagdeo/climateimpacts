@@ -2,7 +2,7 @@
 % Please edit documentation in R/WatershedStorage.R
 \name{WatershedStorage}
 \alias{WatershedStorage}
-\title{Function describing water stored in a watershed/year using simplified inflow/outflow processes}
+\title{Volume of Water Stored in Watershed}
 \usage{
 WatershedStorage(precip, evap, runoff, watershed_size)
 }
