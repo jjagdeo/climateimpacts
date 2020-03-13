@@ -7,16 +7,16 @@
 WatershedStorage(precip, evap, runoff, watershed_size)
 }
 \arguments{
-\item{precip}{precipitation in inches/year}
+\item{precip}{volume of precipitation in inches/year}
 
-\item{evap}{evaporation in inches/year}
+\item{evap}{volume of water evaporated in inches/year}
 
-\item{runoff}{runoff in inches/year}
+\item{runoff}{volume of runoff in inches/year}
 
 \item{watershed_size}{total area of watershed in sq miles}
 }
 \value{
-storage the amount of water stored in the watershed in cubic ft/year
+storage the volume of water stored in the watershed in cubic ft/year
 }
 \description{
 Function describing water stored in a watershed/year using simplified inflow/outflow processes
