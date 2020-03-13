@@ -7,7 +7,7 @@
 snow_v_rain(climate)
 }
 \arguments{
-\item{climate}{data frame including precipitation (inches) and temperature (F) observations}
+\item{climate}{data frame including columns for precipitation (inches) and temperature (F) observations}
 }
 \value{
 precip_summary a table with volume of precipitation that fell as rain vs snow and average temperature when precipitation fell as rain vs snow.
