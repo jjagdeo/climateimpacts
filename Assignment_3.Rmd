@@ -28,11 +28,14 @@ runoff_waterstorage = rnorm(mean = 0.7, sd = 0.2, n = nsample)
 
 
 ```{r}
-#Generate sample data for preciprange()
+#Generate sample data for snow_v_rain()
 
-#Total precipitation (inches) by month
+days = 365
+#Table with column for precipitation (inches) and column for temperature (F) from same observation
 
-monthly_precip = data.frame(month = c(1:12), precip = rnorm(mean = 1.5, sd = 1, n = 12))
+climate = data.frame(precip = rnorm(mean = 0.1, sd = 0.08, n = days), temp = rnorm(mean = 50, sd = 25, n = days))
+
+snow_v_rain(climate)
 
 
 ```

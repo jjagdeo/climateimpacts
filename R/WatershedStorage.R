@@ -1,3 +1,5 @@
+#' Volume of Water Stored in Watershed
+#'
 #' Function describing water stored in a watershed/year using simplified inflow/outflow processes
 #'
 #'
