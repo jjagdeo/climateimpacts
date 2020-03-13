@@ -37,3 +37,18 @@ monthly_precip = data.frame(month = c(1:12), precip = rnorm(mean = 1.5, sd = 1, 
 
 ```
 
+```{r}
+# Generate sample data for MaxPrecip()
+
+# rainfall in inches/day
+rainfall = rnorm(mean = 7, sd = 2, n = 1460)
+# daily dates for 1995
+date = rep(seq(from = as.Date("1995-01-01"), to = as.Date("1995-12-31"), by = 'day'), 4)
+# rainfall station data for Cachuma, Gibraltar, Jameson, San Marcos
+station = rep(c("Cachuma", "Gibraltar", "Jameson", "San Marcos"), times = 1, each = 365)
+
+# combine the values above into a data frame
+precip <- data.frame(date, station, rainfall)
+
+```
+
